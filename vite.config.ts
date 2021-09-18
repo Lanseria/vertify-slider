@@ -8,7 +8,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, "packages/index.ts"),
       // 暴露的全局变量，在 formats 包含 'umd' 或 'iife' 时是必须的。
-      name: "vue-component-vite",
+      name: "vertify-slider",
       formats: ["es", "umd"],
     },
     rollupOptions: {

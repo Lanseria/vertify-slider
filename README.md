@@ -1,4 +1,4 @@
-# vue-component-vite
+# vertify-slider
 
 此项目为 vitejs vuejs3 库, 一起构建的组件
 
@@ -7,15 +7,15 @@ This project is for the vitejs vuejs3 library, built together with the component
 ## npm / yarn 安装
 
 ```bash
-npm i @lanseria/vue-component-vite
+npm i @lanseria/vertify-slider
 
-yarn add @lanseria/vue-component-vite
+yarn add @lanseria/vertify-slider
 ```
 
-## 引入 @lanseria/vue-component-vite
+## 引入 @lanseria/vertify-slider
 
 ```js
-import "@lanseria/vue-component-vite/style.css";
+import "@lanseria/vertify-slider/style.css";
 ```
 
 ```vue
@@ -27,8 +27,8 @@ import "@lanseria/vue-component-vite/style.css";
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import { PdfEditor } from "@lanseria/vue-component-vite";
-// import { PdfViewer } from "@lanseria/vue-component-vite";
+import { PdfEditor } from "@lanseria/vertify-slider";
+// import { PdfViewer } from "@lanseria/vertify-slider";
 
 export default defineComponent({
   name: "App",
